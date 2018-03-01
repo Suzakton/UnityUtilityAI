@@ -14,7 +14,7 @@ An UtilityVariable is a ScriptableObject that represent a variable your AI want 
 ### UtilityFunction
 
 This function use UtilityVariables and curves to give a value which represent how much we want this function to weight on the decision.
-Each UtilityVariables are associated with a curve. This curve must be defined between 0 and 1 on the x-axis.
+Each UtilityVariables are associated with a curve. This curve must be defined between 0 and 1 on the x-axis and -1 and 1 on the y axis.
 Each curves will be evaluated and a value between 0 and weight will be returned.
 
 
