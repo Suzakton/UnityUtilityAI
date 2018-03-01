@@ -23,14 +23,14 @@ namespace UtilityAI
         public UtilityValue[] utilities;
 
         /// <summary>
-        /// Main utility function. Return a value between 0 and weight.
+        /// Main utility function. Return a value between -weight and weight.
         /// </summary>
         public float getUtilityValue()
         {
             float utilityValue = 0;
             foreach (UtilityValue uf in utilities)
             {
-                utilityValue += Mathf.Clamp(uf.evaluateCurve(), 0, 1);
+                utilityValue += Mathf.Clamp(uf.evaluateCurve(), -1, 1);
             }
             return (utilityValue / utilities.Length) * weight;
         }
