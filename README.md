@@ -1,5 +1,5 @@
 # UnityUtilityAI
-Utility AI for Unity with Scriptable Object
+Utility AI for Unity with Scriptable Object.
 
 ## Getting Started
 To use this project the Code folder (under the Asset one) is enough.
@@ -9,7 +9,7 @@ The other one are for the demo scene.
 
 ### UtilityVariable
 
-An UtilityVariable is a ScriptableObject that represent a variable your AI want to use to make decisions.
+An UtilityVariable is a ScriptableObject that represent a variable your AI will use to make decisions.
 
 ### UtilityFunction
 
